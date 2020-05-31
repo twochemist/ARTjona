@@ -1,0 +1,235 @@
+h1 {
+	color: red;margin: 0;padding: 0;
+}
+#wrapper {
+	background-color: #fff;
+	margin:0 auto;
+	max-width: 1024px;
+	padding: 0 5%;
+}
+.somos {
+	float:left;
+	margin: 0 10px;
+}
+.about {
+	padding: 0 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+}
+a:link, a:visited {
+	color: #212429;
+	text-decoration: none;
+}
+/**************************
+*****   HEADER   **********
+**************************/
+.flexible {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+/*Logo*/
+#logo {
+	align-self: center;
+}
+#logo img {
+	width: 200px;
+}
+.subtitulo{
+	display: inline-block;
+	align-self: center;
+	position: relative;
+	margin: 0; padding: 0;
+	flex-grow: 1;
+
+}
+h1, h2 {
+	color: #212429;
+}
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+
+}
+/* Barra de navegación */
+
+nav {
+	background-color: #fff;
+	align-self: flex-end;
+	
+}
+nav ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.4em;
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+	
+
+}
+
+nav ul li:hover {
+	background-color: rgba(33, 36, 41, .4);
+
+}
+nav ul {
+	margin: 0;padding: 0; 
+}
+
+nav a, nav a:visited{
+	color: #212429; text-decoration: none;
+	
+}
+.select a:visited{
+	color:#1E2054;
+}
+
+/**************************
+*****   GALLERY   *********
+***************************/
+
+section#contenedor {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+article.imagen {
+	display: inline-block;
+	width: 45%;
+	position: relative;
+}
+.imagen img {
+	width: 100%;
+	display: block;
+}
+div.texto {
+	
+	background-color: #212429;
+	border-top-right-radius: 24px;
+	bottom: 0px;
+	color: lightgrey;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
+	font-weight: 100;
+	height: 10%;
+	opacity: 0.8;
+	padding-top: 2%;
+	position: absolute;
+	text-indent: 2%;
+	width: 80%;
+}
+/**************************
+	TITULO IMAGENES
+**************************/
+
+.pictitle a{
+	position: absolute;
+	background-color: #212429;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100; 
+	font-size: 1.4em;
+	border-radius: 24px 24px;
+	margin: 10px 0 0 30px;
+	padding: 10px 20px;
+}
+
+
+
+/**************************
+*****   FOOTER   **********
+***************************/
+
+footer {
+	background-color: #212429;
+	color: grey;
+	font-size: .8em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+img.social {
+	width: 40px;
+	margin: 30px 5px;
+	/*filter: sepia(60%);*/
+	-webkit-filter: sepia(60%);
+	-moz-filter: sepia(60%);
+	-ie-filter: sepia(60%);
+
+}
+img.social:hover {
+	/*filter: sepia(0%);*/
+	-webkit-filter: sepia(0%);
+	-moz-filter: sepia(0%);
+	-ie-filter: sepia(0%);
+}
+footer p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	letter-spacing: .2em;
+
+}
+footer p a:link, footer p a:visited{
+	color: grey;
+}
+/**************************
+*****   PÁGINA CONTACTO   *
+**************************/
+
+.contact, .contact a{
+	font-family: Open Sans, sans-serif;
+	color: #555C41;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	display: block;
+	min-height: 20px;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	padding: 0 0 0 30px;
+}
+.contact li.phone a{
+	background-image: url('../img/telephone.png');
+}
+.contact li.mail a{
+	background-image: url('../img/mail.png');
+}.contact li.twitter a{
+	background-image: url('../img/Twitter.png');
+}
+
+@media all and (max-width: 540px) , (orientation: portrait) {
+	
+	#logo img {
+		width: 300px;margin: 0 auto;
+		-webkit-transition: width 0.8s ease-out;
+	}
+	.flexible {
+		flex-direction:column;
+	}
+	#logo {
+		align-self:center;
+	}
+	.subtitulo {
+		align-self:center;
+		font-size: 1.4em;
+	}
+	nav{
+		align-self:center;
+	}
+	.somos {
+		float: none;
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+

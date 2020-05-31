@@ -1,0 +1,24 @@
+
+@media (max-width: 640px), (orientation: portrait) {
+	
+	section#contenedor {
+		width: 100%
+	}
+	article.imagen {
+		display: block;
+		width: 100%;
+
+		transition: all .4s linear;
+		-webkit-transition: all .4s linear; 	
+		-moz-transition: all .4s linear;
+		-o-transition: all .4s linear;
+		-ie-transition: all .4s linear;
+		
+	}
+	
+
+
+
+
+
+}
